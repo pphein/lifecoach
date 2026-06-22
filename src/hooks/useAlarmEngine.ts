@@ -32,7 +32,7 @@ async function showAlarmNotification(title: string, body: string) {
       await reg.showNotification("Life100 — " + title, {
         body,
         icon: "/icon.png",
-        vibrate: [300, 100, 300, 100, 300],
+        // vibrate: [300, 100, 300, 100, 300],
         requireInteraction: false,
       });
       return;
